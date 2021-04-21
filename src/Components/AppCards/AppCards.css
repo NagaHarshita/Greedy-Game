@@ -1,0 +1,92 @@
+.cards-list{
+    background-color: rgb(230,230,230);
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 900px;
+}
+.apps-heading{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.apps-heading h3{
+    text-align: left;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+.clickable{
+    display: flex;
+    justify-content: space-between;
+}
+.app-card{
+    border-radius: 10px solid black;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+}
+.app-title{
+    font-size: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: left;
+}
+.clickable .button{
+    float: right;
+    border-radius: 2px solid white;
+    padding: 10px;
+    margin: 50px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.app-name{
+    padding: 10px;
+    align-content: left;
+}
+.app-stats{
+    display: flex;
+    justify-items: auto;
+}
+.name{
+    padding: 10px;
+    text-align: center;
+}
+.name h3{
+    color: #808080;
+}
+.green{
+    margin-top: 30px;
+    height: 60px;
+    width: 60px;
+    border-radius: 8px;
+    background-color: #53FE75;
+}
+.orange{
+    margin-top: 30px;
+    height: 60px;
+    width: 60px;
+    border-radius: 8px;
+    background-color:#FE9253;
+}
+.violet{
+    margin-top: 30px;
+    height: 60px;
+    width: 60px;
+    border-radius: 8px;
+    background-color: #536DFE;
+}
+
+@media (max-width: 680px) {
+    .app-title{
+        align-items: left;
+        display: grid;
+        grid-template-columns: 30% 70%;
+    }
+    .app-title h2{
+        font-size: 20px;
+    }
+    .name h3{
+        font-size: 15px;
+    }
+}
