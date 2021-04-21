@@ -23,7 +23,7 @@ const AppCards = () =>{
         setStats(data);
       }
       fetchApps();
-      fectchAllStats();
+    //   fectchAllStats();
     //   return () => mounted = false;
     }, [])
 
